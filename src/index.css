@@ -1,0 +1,87 @@
+@import "tailwindcss";
+
+@theme {
+  /* Brand Colors — Dark Navy / Teal */
+  --color-uw-purple: #1B2A4A;
+  --color-uw-purple-hover: #152240;
+  --color-uw-purple-light: #3B6B8A;
+  --color-uw-purple-50: #f0f4f7;
+  --color-uw-purple-100: #e1e8ef;
+  --color-uw-gold: #4A90A4;
+  --color-uw-gold-light: #d4e8ee;
+  --color-uw-gold-hover: #3d7a8d;
+
+  /* Backgrounds */
+  --color-page-bg: #f5f5f5;
+  --color-card-bg: #ffffff;
+  --color-section-bg: #fafafa;
+
+  /* Text */
+  --color-text-primary: #1a1a1a;
+  --color-text-secondary: #555555;
+  --color-text-muted: #888888;
+
+  /* Borders */
+  --color-border: #e0e0e0;
+  --color-border-strong: #c0c0c0;
+
+  /* Status */
+  --color-success: #2e7d32;
+  --color-success-bg: #dcfce7;
+  --color-warning: #f59e0b;
+  --color-warning-bg: #fef3c7;
+  --color-error: #dc2626;
+  --color-error-bg: #fee2e2;
+  --color-info: #2563eb;
+  --color-info-bg: #dbeafe;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  background-color: #f5f5f5;
+  color: #1a1a1a;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* All interactive elements get pointer cursor — !important needed to override Tailwind preflight */
+button, [role="button"], a, select, input[type="checkbox"], input[type="radio"], label {
+  cursor: pointer !important;
+}
+button:disabled, button[disabled] {
+  cursor: not-allowed !important;
+}
+
+/* Focus rings */
+*:focus-visible {
+  outline: 2px solid #1B2A4A;
+  outline-offset: 2px;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #f5f5f5;
+}
+::-webkit-scrollbar-thumb {
+  background: #c0c0c0;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #888888;
+}
+
+/* Table styling */
+table th {
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-size: 0.7rem;
+}
