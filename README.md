@@ -15,10 +15,12 @@ A front-end prototype for a modernized course registration system for Global Sta
 
 ## Team
 
-- [Joseph Chamdani](https://github.com/JosephDavisC)
-- [Kenneth Wu](https://github.com/kennethwu30)
-- [Nicole Luu](https://github.com/nluu07)
-- [Evelyn Fu](https://github.com/evelynfuu)
+| Name | GitHub |
+|------|--------|
+| Joseph Chamdani | [@JosephDavisC](https://github.com/JosephDavisC) |
+| Kenneth Wu | [@kennethwu30](https://github.com/kennethwu30) |
+| Nicole Luu | [@nluu07](https://github.com/nluu07) |
+| Evelyn Fu | [@evelynfuu](https://github.com/evelynfuu) |
 
 ## Problem Statement
 
