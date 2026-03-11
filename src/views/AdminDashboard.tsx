@@ -209,7 +209,7 @@ export default function AdminDashboard() {
             <div className="grid grid-cols-2 gap-3">
               <div><p className="text-xs text-text-muted">Peak Users</p><p className="text-lg font-bold text-text-primary">2,847 <span className="text-xs font-normal text-text-muted">(8:00 AM)</span></p></div>
               <div><p className="text-xs text-text-muted">Avg Response</p><p className="text-lg font-bold text-success">0.8s</p></div>
-              <div><p className="text-xs text-text-muted">Uptime</p><p className="text-lg font-bold text-success">99.97%</p></div>
+              <div><p className="text-xs text-text-muted">Uptime</p><p className="text-lg font-bold text-success">99.99%</p></div>
               <div><p className="text-xs text-text-muted">Transactions</p><p className="text-lg font-bold text-text-primary">12,456</p><p className="text-xs text-text-muted">Error Rate: <span className="text-success font-medium">0.3%</span></p></div>
             </div>
           </div>
